@@ -1,8 +1,8 @@
 import media
 import fresh_tomatoes
 
-#I liked Toy Story as a movie growing up.
-#I think it was the first movie I saw in theater.
+# I liked Toy Story as a movie growing up.
+# I think it was the first movie I saw in theater.
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toysthat come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/"
@@ -40,7 +40,7 @@ matrix = media.Movie("The Matrix",
                      "https://images-na.ssl-images-amazon.com/images/I/"
                      + "51FhdGyJ6DL._SL500_AC_SS350_.jpg",
                      "https://www.youtube.com/watch?v=m8e-FF8MsqU")
-#oldboy url might get taken down due to copyright.
+# oldboy url might get taken down due to copyright.
 oldboy = media.Movie("Oldboy",
                      "Dae-Su is an obnoxious drunk bailed from the police "
                      + "station yet again by a friend. However, he's "
@@ -113,9 +113,9 @@ movies = [toy_story, princessbride, riddick, matrix, oldboy, raid,
           battle_royale, kill_bill, boondock_saints]
 fresh_tomatoes.open_movies_page(movies)
 
-#Citation/Explanation:
-#Movie storyline are mostly pulled from IMDB Plot page for the movie
-#discribed. By searching the title of the movie on http://www.imdb.com and
-#selecting the "Plot Summary" link you can find the plot page. Most of the
-#plot descriptions are user written. I'm using the Summarys under the
-#Educational portion of the Fair Use Act.
+# Citation/Explanation:
+# Movie storyline are mostly pulled from IMDB Plot page for the movie
+# discribed. By searching the title of the movie on http://www.imdb.com and
+# selecting the "Plot Summary" link you can find the plot page. Most of the
+# plot descriptions are user written. I'm using the Summarys under the
+# Educational portion of the Fair Use Act.
